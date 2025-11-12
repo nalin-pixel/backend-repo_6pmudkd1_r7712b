@@ -1,0 +1,34 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [158] using StatReload
+INFO:     Started server process [160]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:60846 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60852 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:60868 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60870 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60868 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60870 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60868 - "POST /api/products/seed HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60870 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60876 - "POST /api/products/seed HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60868 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60876 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60884 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60896 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60902 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60884 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60896 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52322 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52336 - "OPTIONS / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52336 - "GET / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52322 - "GET / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52336 - "OPTIONS /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52322 - "GET /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52336 - "GET /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52336 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52322 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52336 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52322 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52336 - "GET /api/products HTTP/1.1" 200 OK
